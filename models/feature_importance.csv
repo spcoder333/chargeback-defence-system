@@ -1,0 +1,11 @@
+,0
+ip_shipping_match,0.33568352
+past_dispute_count,0.12194294
+is_vpn_used,0.11391464
+payment_mode_NETBANKING,0.07906187
+payment_mode_UPI,0.068044096
+payment_mode_DEBIT_CARD,0.054430723
+failed_attempts_last_24h,0.03611614
+payment_mode_WALLET,0.03181746
+amount,0.020861546
+dispute_reason_code_10.5_VISA_EASY_PAYMENT,0.019294241
