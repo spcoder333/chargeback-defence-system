@@ -26,37 +26,6 @@ This project solves chargeback friction by:
 
 ---
 
-## 🏗️ System Architecture
-
-
-┌────────────────────────────────┐
-│  Razorpay Webhook Payload      │
-└───────────────┬────────────────┘
-                │
-                ▼
-┌────────────────────────────────┐
-│   XGBoost ML Pipeline          │
-└───────────────┬────────────────┘
-                │ (Fraud Confidence Score)
-                ▼
-┌────────────────────────────────┐
-│    Routing Threshold Engine    │
-└──────────────────────────────--┘
-                   |                |
-┌──────────────────┘                └──────────────────┐
-▼                                                      ▼
-[Score > 75%]                                          [50% < Score <= 75%]
-Auto-Submit Rebuttal                                   Escalate to Human
-│                                                      │
-└──────────────────┬───────────────────────────────────┘
-                   │
-                   ▼
-┌────────────────────────────────┐
-│  Google Gemini Engine          │
-│   (Structured Evidence Package)│
-└────────────────────────────────┘
-
----
 
 ## 🛠️ Tech Stack
 
