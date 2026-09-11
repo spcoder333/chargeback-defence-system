@@ -31,7 +31,7 @@ This project solves chargeback friction by:
 
 - *Frontend / Dashboard:* Streamlit
 - *Machine Learning:* XGBoost, Scikit-Learn, Pandas, NumPy, Joblib
-- *Generative AI:* Google GenAI SDK (gemini-2.5-flash), Pydantic
+- *Generative AI:* Google GenAI SDK (gemini-3.6-flash), Pydantic
 - *Environment Management:* Python-Dotenv
 
 ---
